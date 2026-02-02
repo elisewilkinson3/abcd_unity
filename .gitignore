@@ -84,10 +84,13 @@ Desktop.ini
 Library/
 Temp/
 Obj/
-Build/
 Builds/
 Logs/
 UserSettings/
+
+# allow Build folder
+!Build/
+!Build/**
 
 # Visual Studio / Rider
 *.csproj
